@@ -4,7 +4,7 @@ import {motion} from "framer-motion"
 
 function Contact() {
   return (
-    <div name='contact' className='w-full h-full bg-zinc-50  '>
+    <div name='contact' className='w-full h-full bg-zinc-100  '>
         <div className='max-w-[1190px] w-full mx-auto p-10 h-full '>
             <div className='grid md:grid-cols-2 gap-7 '>
               <motion.div 

@@ -4,7 +4,7 @@ import {motion} from "framer-motion"
 
 function Partners() {
   return (
-    <div name='partners' className='w-full h-full bg-zinc-50'>
+    <div name='partners' className='w-full h-full bg-zinc-100'>
     <div className='max-w-[1240px] w-full mx-auto p-10 h-full '>
       < motion.div
        initial = {{y: -80, opacity: 0}}
