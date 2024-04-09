@@ -15,20 +15,20 @@ function Contact() {
                 <h2 className=' text-3xl text-[#424242] font-bold mb-3 tracking-wider'>Contact <span className='text-[#0504aa]'>Details</span></h2>
                 <div>
                     <div className='flex flex-col '>
-                        <span className=' text-base text-[#424242] '>AltraCore Solutions</span>
-                        <span>0795665011 / 0632140656</span>
-                        <span> <span className='text-zinc-700'>e-mail:</span> <span className='underline text-blue-800 '>altracore.solutions@gmail.com</span> </span>
+                        <span className=' text-base text-[#2b2a2a] '>AltraCore Solutions</span>
+                        <span className='text-[#2b2a2a] text-sm'>0795665011 / 0632140656</span>
+                        <span> <span className='text-[#2b2a2a] text-sm'>e-mail:</span> <a href='mailto:altracore.solutions@gmail.com' className='underline text-blue-800 cursor-pointer'>altracore.solutions@gmail.com</a> </span>
                     </div>
-                    <h1 className=' text-xl text-[#424242] font-bold mt-3 underline duration-300'>Directors</h1>
+                    <h1 className=' text-xl text-[#2b2a2a] font-bold mt-3 underline duration-300'>Directors</h1>
                     <div className='flex flex-col mt-2'>
-                        <span className=' text-base text-gray-800 '>Luphumlo Mashologu</span>
+                        <span className=' text-base text-[#2b2a2a]'>Luphumlo Mashologu</span>
                         <span>0795665011</span>
-                        <span ><span className='text-zinc-700'>e-mail:</span> <span className='underline text-blue-800 '>luphumlomashologu@gmail.com</span> </span>
+                        <span ><span className='text-[#2b2a2a] text-sm'>e-mail:</span> <a href='mailto:luphumlomashologu@gmail.com' className='underline text-blue-800 cursor-pointer'>luphumlomashologu@gmail.com</a> </span>
                     </div>
                     <div className='flex flex-col mt-3'>
-                        <span className=' text-base text-gray-800 '>Aron Ngwenya</span>
+                        <span className=' text-base text-[#2b2a2a] '>Aron Ngwenya</span>
                         <span>0632140656</span>
-                        <div ><span className='text-zinc-700'>e-mail:</span> <span className='underline text-blue-800 '>aronngwenya@gmail.com</span> </div>
+                        <div ><span className='text-[#2b2a2a] text-sm'>e-mail:</span> <a href='mailto:aronngwenya@gmail.com' className='underline text-blue-800 cursor-pointer'>aronngwenya@gmail.com</a> </div>
                     </div>
                 </div>
                  
@@ -38,8 +38,8 @@ function Contact() {
                whileInView = {{x: 0, opacity: 1}}
                transition = {{ delay: 0.5, duration: 2}}
                className='sm:mt-10'>
-                 <h1 className=' text-3xl text-[#424242] font-bold tracking-wider mb-3'>Contact Us</h1>
-                 <p className='leading-7 tracking-wide mb-3 text-sm  '>
+                 <h1 className=' text-3xl text-[#2b2a2a] font-bold tracking-wider mb-3'>Contact Us</h1>
+                 <p className='leading-7 tracking-wide mb-3 text-sm  text-[#2b2a2a]'>
                   Our teams are readily available to assist our clients in anyways possible. For inquiries or quotations <span className='text-gray-800 '>GET IN TOUCH</span>  with us using our contact details or the contact form below.  
                  
                  </p>

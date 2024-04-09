@@ -66,7 +66,7 @@ function About() {
                   initial = {{y: 80, opacity: 0}}
                   whileInView = {{y: 0, opacity: 1}}
                   transition = {{ delay: 0.8, duration: 2}}
-                  className='leading-7  tracking-wide mb-3 text-zinc-800 text-sm mt-'>
+                  className='leading-7  tracking-wide md:mb-3 text-zinc-800 text-sm'>
                   Our vision and mission is to grow the company into a well establised giant through innovative means, delivery of quality services and client satisfaction through formidable partnerships with intergrity and good business values.
                  
                  </motion.p>
@@ -77,7 +77,7 @@ function About() {
                transition = {{ delay: 0.9, duration: 2}}
               >
                 
-                 <img src={Construction} alt=""  className='w-full h-[400px] md:h-[506px] object-cover mt-4 md:mt-14'/>
+                 <img src={Construction} alt=""  className='w-full h-[400px] md:h-[506px] object-cover md:mt-14'/>
               </motion.div>
              
             </div>

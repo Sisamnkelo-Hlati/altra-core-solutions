@@ -6,7 +6,7 @@ function BottomFooter() {
     <div className='max-w-[1240px] w-full mx-auto p-10 h-full  '>
       
       <div className=' flex items-center justify-between text-zinc-800 w-full flex-wrap '>
-        <p className=' mb-3 text-sm'>Copyright &copy; 2024, all rights reserved</p>
+        <p className=' mb-3 text-sm'>Copyright &copy; 2024, all rights reserved - Images By Unsplash</p>
         <p className=' text-sm'>Created by Sisamnkelo Hlati</p>
       </div>
     </div>
