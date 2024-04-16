@@ -1,13 +1,13 @@
 import React from 'react'
 import {Link} from 'react-scroll'
-import {FaFacebook, FaTwitter, FaPhone} from 'react-icons/fa'
+import { FaPhone} from 'react-icons/fa'
 import {HiMail} from 'react-icons/hi'
 import Logo from '../assets/logo6.png'
 
 function Footer() {
   return (
     <div name='footer' className='w-full h-full border-t border-zinc-200'>
-    <div className='max-w-[1190px] w-full mx-auto pl-10 pr-10 h-full '>
+    <div className='md:max-w-[1190px] w-full mx-auto pl-10 pr-10 h-full '>
       <div className='flex justify-between flex-wrap'>
       <div className=''>
       <img src={Logo} alt="" className='h-[150px] w-[270px] object-contain block relative right-14 '/>   
@@ -27,14 +27,11 @@ function Footer() {
        <div>
        <h1 className='text-xl text-[#2b2a2a] mt-12  mb-3'>Contacts</h1>
        <ul className='md:flex flex-col  gap-2  text-base md:text-xl '>
-            <li className='text-[#2b2a2a] text-sm md:text-base mb-2 flex items-center gap-x-2'><HiMail className='text-xl'/> altracore.solutions@gmail.com</li>
-            <li className='text-[#2b2a2a] text-sm md:text-base mb-2 flex items-center gap-x-2'><FaPhone className='text-sm'/> +27 79566-5011</li>
-            <li className='text-[#2b2a2a]  text-sm md:text-base mb-2 flex items-center gap-x-2'><FaPhone className='text-sm'/> +27 632140-656</li>
+            <li className='text-[#2b2a2a] text-sm md:text-base mb-2 flex items-center gap-x-2'><HiMail className='text-xl text-[#5f5e5e] '/> altracore.solutions@gmail.com</li>
+            <li className='text-[#2b2a2a] text-sm md:text-base mb-2 flex items-center gap-x-2'><FaPhone className='text-sm text-[#5f5e5e]'/> +27 79566-5011</li>
+            <li className='text-[#2b2a2a]  text-sm md:text-base mb-2 flex items-center gap-x-2'><FaPhone className='text-sm text-[#5f5e5e]'/> +27 632140-656</li>
         </ul>
-        <div className='flex gap-5 text-xl text-[#2b2a2a] mt-3'>
-          <FaFacebook className='hover:text-2xl cursor-pointer'/>
-          <FaTwitter className='hover:text-2xl cursor-pointer'/>
-        </div>
+      
         
        </div>
        

@@ -1,16 +1,14 @@
 import React from 'react'
-import {motion} from "framer-motion"
+
 
 
 function Contact() {
   return (
     <div name='contact' className='w-full h-full bg-zinc-100  '>
-        <div className='max-w-[1190px] w-full mx-auto p-10 h-full '>
+        <div className='md:max-w-[900px] w-full mx-auto p-10 h-full '>
             <div className='grid md:grid-cols-2 gap-7 '>
-              <motion.div 
-               initial = {{x: -80, opacity: 0}}
-               whileInView = {{x: 0, opacity: 1}}
-               transition = {{ delay: 0.5, duration: 2}}
+              <div 
+              
               >
                 <h2 className=' text-3xl text-[#424242] font-bold mb-3 tracking-wider'>Contact <span className='text-[#0504aa]'>Details</span></h2>
                 <div>
@@ -32,11 +30,9 @@ function Contact() {
                     </div>
                 </div>
                  
-              </motion.div>
-              <motion.div
-               initial = {{x: 80, opacity: 0}}
-               whileInView = {{x: 0, opacity: 1}}
-               transition = {{ delay: 0.5, duration: 2}}
+              </div>
+              <div
+             
                className='sm:mt-10'>
                  <h1 className=' text-3xl text-[#2b2a2a] font-bold tracking-wider mb-3'>Contact Us</h1>
                  <p className='leading-7 tracking-wide mb-3 text-sm  text-[#2b2a2a]'>
@@ -62,7 +58,7 @@ function Contact() {
                   </form>
                  </div>
                 
-              </motion.div>
+              </div>
              
             </div>
         </div>

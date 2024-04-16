@@ -1,26 +1,33 @@
 import React from 'react';
 
-import NavBar from './components/NavBar';
-import Hero from './components/Hero';
-import Partners from './components/Partners';
-import About from './components/About';
-import Services from './components/Services';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import BottomFooter from './components/BottomFooter';
+
+import NavBar from './components/NavBar.jsx';
+import Partners from './components/Partners.jsx'
+import About from './components/About.jsx';
+import Services from './components/Services.jsx';
+import Contact from './components/Contact.jsx';
+
+
+
+
+
 
 function App() {
   return (
     <div >
       
        <NavBar/>
-       <Hero/>
        <Partners/>
        <About/>
        <Services/>
        <Contact/>
-       <Footer/>
-       <BottomFooter/>
+
+      
+    
+      
+     
+      
+
       
     </div>
   );
