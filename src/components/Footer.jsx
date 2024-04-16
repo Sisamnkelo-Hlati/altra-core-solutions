@@ -6,12 +6,12 @@ import Logo from '../assets/logo6.png'
 
 function Footer() {
   return (
-    <div name='footer' className='w-full h-full border-t border-zinc-200'>
-    <div className='md:max-w-[1190px] w-full mx-auto pl-10 pr-10 h-full '>
+    <div name='footer' className='w-screen h-full border-t border-zinc-200'>
+    <div className='md:max-w-[1190px]  mx-auto pl-10 pr-10 h-full '>
       <div className='flex justify-between flex-wrap'>
       <div className=''>
       <img src={Logo} alt="" className='h-[150px] w-[270px] object-contain block relative right-14 '/>   
-        <p className='text-[#2b2a2a] text-sm w-60 leading-7 tracking-wide'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium </p>
+        <p className='text-[#2b2a2a] font-semibold text-base md:text-sm md:w-60 leading-7 tracking-wide'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium </p>
        
        </div>
        <div className=''>

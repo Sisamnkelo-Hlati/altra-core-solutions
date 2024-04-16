@@ -4,8 +4,8 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div name='contact' className='w-full h-full bg-zinc-100  '>
-        <div className='md:max-w-[900px] w-full mx-auto p-10 h-full '>
+    <div name='contact' className='w-screen h-full bg-zinc-100  '>
+        <div className='md:max-w-[1190px]  mx-auto p-10 h-full '>
             <div className='grid md:grid-cols-2 gap-7 '>
               <div 
               
@@ -35,11 +35,11 @@ function Contact() {
              
                className='sm:mt-10'>
                  <h1 className=' text-3xl text-[#2b2a2a] font-bold tracking-wider mb-3'>Contact Us</h1>
-                 <p className='leading-7 tracking-wide mb-3 text-sm  text-[#2b2a2a]'>
-                  Our teams are readily available to assist our clients in anyways possible. For inquiries or quotations <span className='text-gray-800 '>GET IN TOUCH</span>  with us using our contact details or the contact form below.  
+                 <p className='leading-7 tracking-wide mb-3 text-base  text-[#2b2a2a]'>
+                  Our team is readily available to assist our clients in anyways possible. For inquiries or quotations <span className='text-gray-800 '>GET IN TOUCH</span>  with us using our contact details or the contact form below.  
                  
                  </p>
-                 <div className=' w-full  p-3 rounded-lg shadow-sm  border border-slate-100'>
+                 <div className=' w-full  p-3 rounded-lg shadow-sm  border border-slate-100 -z-10'>
                   <form action="https://getform.io/f/lbkommqb" method='POST' className=' flex flex-col'>
                     <div className='flex flex-col md:flex-row md:items-center md:justify-evenly gap-3 '>         
                        <input type="text" name='name' placeholder='Enter your name' className='w-full p-2 rounded-lg border border-zinc-300 outline-slate-400'/>

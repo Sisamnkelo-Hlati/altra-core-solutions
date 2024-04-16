@@ -36,16 +36,16 @@ function About() {
                   <ScrollTrigger onEnter={() => setTriggerOnScroll(true)} onExit={() => setTriggerOnScroll(false)}>
                     
                    <div className='absolute  top-0 left-0 -z-0 w-full h-full px-20  flex justify-center items-center flex-wrap'>
-                    <div className='mr-5 flex flex-col items-center border border-[#cecccc] p-3 rounded-md'>
-                      <span className='text-[#cecccc] text-2xl'>{triggerOnScroll && <Countup start={0} end={5} duration={1} delay={0.8}/>}+</span>
+                    <div className='w-full mr-5 flex flex-col items-center border border-[#cecccc] p-3 rounded-md'>
+                      <span className='text-[#cecccc] font-semibold text-4xl md:text-2xl'>{triggerOnScroll && <Countup start={0} end={5} duration={1} delay={0.8}/>}+</span>
                       <p className='text-[#cecccc] text-sm' >experience</p>
                     </div>
-                    <div className='mr-5 flex flex-col items-center border border-[#cecccc] p-3 rounded-md'>
-                      <span className='text-[#cecccc] text-2xl'>{triggerOnScroll && <Countup start={0} end={10} duration={1} delay={0.8}/>}+</span>
-                      <p className='text-[#cecccc] text-sm' >Happy Clients</p>
+                    <div className=' w-full mr-5 flex flex-col items-center border border-[#cecccc] p-3 rounded-md'>
+                      <span className='text-[#cecccc] font-semibold text-4xl md:text-2xl'>{triggerOnScroll && <Countup start={0} end={10} duration={1} delay={0.8}/>}+</span>
+                      <p className='text-[#cecccc] text-sm ' >Happy Clients</p>
                     </div>
-                    <div className='mr-5 flex flex-col items-center border border-[#cecccc] p-3 rounded-md'>
-                      <span className='text-[#cecccc] text-2xl'>{triggerOnScroll && <Countup start={0} end={6} duration={1} delay={1}/>}+</span>
+                    <div className='w-full mr-5 flex flex-col items-center border border-[#cecccc] p-3 rounded-md'>
+                      <span className='text-[#cecccc] font-semibold text-4xl md:text-2xl'>{triggerOnScroll && <Countup start={0} end={6} duration={1} delay={1}/>}+</span>
                       <p className='text-[#cecccc] text-sm'>Our Offices</p>
                     </div>
                    </div>
