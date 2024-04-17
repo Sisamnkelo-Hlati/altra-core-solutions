@@ -35,7 +35,7 @@ function About() {
                    <div className=' absolute top-0 left-0 -z-0 bg-gradient-to-r from-zinc-900/60  to-zinc-900/90 w-full h-full'/>
                   <ScrollTrigger onEnter={() => setTriggerOnScroll(true)} onExit={() => setTriggerOnScroll(false)}>
                     
-                   <div className='absolute  top-0 left-0 -z-0 w-full h-full px-20  flex justify-center items-center flex-wrap'>
+                   <div className='absolute  top-0 left-0 -z-0 w-full px-3 grid sm:grid-cols-2 md:grid-cols-3 gap-3 py-20 md:py-11 '>
                     <div className='w-full mr-5 flex flex-col items-center border border-[#cecccc] p-3 rounded-md'>
                       <span className='text-[#cecccc] font-semibold text-4xl md:text-2xl'>{triggerOnScroll && <Countup start={0} end={5} duration={1} delay={0.8}/>}+</span>
                       <p className='text-[#cecccc] text-sm' >experience</p>
