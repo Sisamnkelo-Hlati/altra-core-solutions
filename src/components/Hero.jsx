@@ -7,7 +7,7 @@ import {Link} from 'react-scroll'
 
 function Hero() {
   return (
-    <div name='home' className=' w-screen h-screen relative bg-zinc-100'>
+    <div name='home' className=' w-screen h-screen relative bg-zinc-700'>
     <img className=' absolute top-0  w-full h-[50%] md:h-[290px] object-cover object-center' src="/images/construction3.jpg"  alt="" />
     <div className=' absolute top-0 bg-zinc-900/80  w-full h-[50%] md:h-[47%]'/>
       < div

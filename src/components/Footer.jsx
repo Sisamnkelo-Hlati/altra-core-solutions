@@ -11,7 +11,7 @@ function Footer() {
       <div className='flex justify-between flex-wrap'>
       <div className=''>
       <img src={Logo} alt="" className='h-[150px] w-[270px] object-contain block relative right-14 '/>   
-        <p className='text-[#2b2a2a] font-semibold text-base md:text-sm md:w-60 leading-7 tracking-wide'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium </p>
+        <p className='text-[#2b2a2a] font-semibold text-base md:text-sm md:w-60 leading-7 tracking-wide'> Experts in quality services </p>
        
        </div>
        <div className=''>
