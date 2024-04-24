@@ -2,7 +2,7 @@ import React from 'react'
 
 function BottomFooter() {
   return (
-    <div className='w-screen h-full border-t border-zinc-100 mt-3'>
+    <div className='w-screen h-full border-t border-zinc-100  bg-[#f5f5ff]'>
     <div className='md:max-w-[1240px] mx-auto p-10 h-full  '>
       
       <div className=' flex items-center justify-between text-zinc-800 w-full flex-wrap '>

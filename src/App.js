@@ -4,6 +4,7 @@ import React from 'react';
 import NavBar from './components/NavBar.jsx';
 import Partners from './components/Partners.jsx'
 import About from './components/About.jsx';
+import Experience from './components/Experience.jsx';
 import Services from './components/Services.jsx';
 import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
@@ -26,6 +27,7 @@ function App() {
        <Partners/>
        <About/>
        <Services/>
+       <Experience/>
        <Contact/>
        <Footer/>
        <BottomFooter/>

@@ -6,12 +6,12 @@ import Logo from '../assets/logo6.png'
 
 function Footer() {
   return (
-    <div name='footer' className='w-screen h-full border-t border-zinc-200'>
+    <div name='footer' className='w-screen h-full  bg-[#f5f5ff] border-t border-zinc-200'>
     <div className='md:max-w-[1190px]  mx-auto pl-10 pr-10 h-full '>
       <div className='flex justify-between flex-wrap'>
       <div className=''>
       <img src={Logo} alt="" className='h-[150px] w-[270px] object-contain block relative right-14 '/>   
-        <p className='text-[#2b2a2a] font-semibold text-base md:text-sm md:w-60 leading-7 tracking-wide'> Experts in quality services </p>
+        <p className='text-[#5c5b5b] font-semibold text-xl md:w-60 leading-7 tracking-wide'> Experts in quality services </p>
        
        </div>
        <div className=''>

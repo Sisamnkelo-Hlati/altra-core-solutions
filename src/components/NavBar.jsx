@@ -12,7 +12,7 @@ function NavBar() {
         setNav(!nav)
     }
   return (
-    <div className=' h-[70px] w-full  py-3 fixed top-0 z-30 bg-zinc-100 shadow-sm mb-[70px]' >
+    <div className=' h-[70px] w-full  py-3 fixed top-0 z-30 bg-[#f5f5ff] shadow-sm mb-[70px]' >
         <div className=' md:max-w-[1240px] w-full  mx-auto flex items-center justify-between px-10'>
          <div className='w-[270px] h-[58px] relative right-6 md:right-1 block'>
          <img src={Logo} alt="logo" className='h-[108px] object-contain object-top w-full relative left-[-50px] md:right-3 -top-6'/>  

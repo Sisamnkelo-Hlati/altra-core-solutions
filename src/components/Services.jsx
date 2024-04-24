@@ -7,8 +7,8 @@ import Cleaning2 from "../assets/logistics.jpg"
 
 function Services() {
   return (
-    <div name='services' className='w-full h-full  bg-zinc-100'>
-        <div className='md:max-w-[1190px] w-full mx-auto py-3 md:py-3 px-5 h-full '>
+    <div name='services' className='w-full h-full  bg-[#f5f5ff] '>
+        <div className='md:max-w-[1190px] w-full mx-auto py-3  px-5 h-full '>
           <div
            
            className='md:flex md:flex-col md:items-center md:max-w-[700px] md:mx-auto  md:px-20'>
@@ -22,13 +22,13 @@ function Services() {
          <div
         
           className='grid sm:grid-cols-2 md:grid-cols-3 sm:gap-3  mt-9'>
-         <div className=' bg-zinc-700 mb-11 mt-5 flex items-center flex-col md:mb-5 p-2  rounded-md border border-zinc-200 '>
+         <div className=' bg-[#E6E6FE]  pb-3 mb-11 mt-5 flex items-center flex-col md:mb-5 p-2  rounded-md border border-zinc-200 '>
             <div className='w-28 h-28 relative top-[-50px] -z-0 bg-blue-100 rounded-full flex justify-center items-center border border-blue-200'>
                 <img src={Construction1} className='w-full h-full object-cover object-center  rounded-full border border-blue-700' alt="" />
             </div>
             <div className=''>
-            <h2 className=' text-xl text-zinc-300 font-bold tracking-wide '>Construction</h2>
-                <ul className='leading-7 text-sm tracking-wide list-disc pl-6 text-zinc-200'>
+            <h2 className=' text-xl text-zinc-600 font-bold tracking-wide '>Construction</h2>
+                <ul className='leading-7 text-sm tracking-wide list-disc pl-6 text-zinc-500'>
                  <li>Building</li> 
                  <li>Maintainance</li>
                  <li>Road works and repairs</li> 
@@ -36,26 +36,26 @@ function Services() {
                 </ul>
             </div>
           </div>
-          <div className=' bg-zinc-700 mb-11 mt-5 flex items-center flex-col md:mb-5 p-2  rounded-md border border-zinc-200'>
+          <div className=' bg-[#E6E6FE]  pb-3 mb-11 mt-5 flex items-center flex-col md:mb-5 p-2  rounded-md border border-zinc-200'>
             <div className='w-28 h-28 relative top-[-50px] -z-0 bg-blue-100 rounded-full flex justify-center items-center  border border-blue-200'>
             <img src={Cleaning1} className='w-full h-full object-cover object-center  rounded-full border border-blue-800' alt="" />
             </div>
             <div >
-            <h2 className=' text-xl text-zinc-300 font-bold tracking-wide'>Cleaning</h2>
-                <ul className='leading-7 text-sm tracking-wide list-disc pl-6 text-zinc-200'>
+            <h2 className=' text-xl text-zinc-600 font-bold tracking-wide'>Cleaning</h2>
+                <ul className='leading-7 text-sm tracking-wide list-disc pl-6 text-zinc-500'>
                  <li>Deep cleaning and hygien</li> 
                  <li>Fumingation</li> 
                  
                 </ul>
             </div>
           </div>
-          <div className=' bg-zinc-700 mb-2 mt-5 flex items-center flex-col md:mb-5 p-2  rounded-md border border-zinc-200'>
+          <div className=' bg-[#E6E6FE]  pb-3 mt-5 flex items-center flex-col md:mb-5 p-2  rounded-md border border-zinc-200'>
             <div className='w-28 h-28 relative top-[-50px] -z-0 bg-blue-100 rounded-full flex justify-center items-center  border border-blue-200'>
                <img src={Cleaning2} className='w-full h-full object-cover object-center  rounded-full border border-blue-800' alt="" />
             </div>
             <div >
-            <h2 className=' text-xl text-zinc-300 font-bold tracking-wide'>Logistics</h2>
-                <ul className='leading-7 text-sm tracking-wide list-disc pl-6 text-zinc-200'>
+            <h2 className=' text-xl text-zinc-600 font-bold tracking-wide'>Logistics</h2>
+                <ul className='leading-7 text-sm tracking-wide list-disc pl-6 text-zinc-500'>
                  <li>Long distance trasportation</li> 
                  <li>Office removal</li> 
                  <li>Relocations</li> 
