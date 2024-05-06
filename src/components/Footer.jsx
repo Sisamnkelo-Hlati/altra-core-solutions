@@ -6,7 +6,7 @@ import Logo from '../assets/logo6.png'
 
 function Footer() {
   return (
-    <div name='footer' className='w-screen h-full  bg-[#f5f5ff] border-t border-zinc-200'>
+    <div name='footer' className='w-screen h-full  bg-[#FEFEFE] border-t border-zinc-200'>
     <div className='md:max-w-[1190px]  mx-auto px-5  h-full '>
       <div className='flex justify-between flex-wrap'>
       <div className=''>

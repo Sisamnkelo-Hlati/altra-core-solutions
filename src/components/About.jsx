@@ -47,11 +47,11 @@ function About() {
                  </h1>
                  <p
                  
-                  className='leading-7  tracking-wide mb-2 text-zinc-500 text-sm md:text-base ml-2'>
+                  className='leading-7  tracking-wide mb-3 text-zinc-500 text-sm md:text-base ml-2'>
                   Our vision and mission is to grow the company into a well establised giant through innovative means, delivery of quality services and client satisfaction through formidable partnerships with intergrity and good business values.
                  
                  </p>
-                 <button type='button' className='border border-[#103cb5]  cursor-pointer text-[#103cb5] py-2 px-4  rounded-lg outline-none hover:shadow-2xl hover:bg-[#1018B5] hover:text-white duration-1000 mt-4 mb-3 md:mb-0 ml-2 self-center font-bold'>Learn More</button>
+                 <button type='button' className='border border-[#103cb5]  cursor-pointer text-[#103cb5] py-2 px-4  rounded-lg outline-none hover:shadow-2xl hover:bg-[#1018B5] hover:text-white duration-1000 mt-4 mb-5 md:mb-0 ml-2 self-center font-bold'>Learn More</button>
 
               </div>
             

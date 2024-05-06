@@ -8,8 +8,8 @@ import Cleaning2 from "../assets/logistics.jpg"
 
 function Services() {
   return (
-    <div name='services' className='w-full h-full  bg-[#f5f5ff] '>
-        <div className='md:max-w-[1190px] w-full mx-auto py-8 px-5 h-full '>
+    <div name='services' className='w-full h-full  bg-[#FEFEFE] '>
+        <div className='md:max-w-[1190px] w-full mx-auto py-8 px-5 h-full  rounded-md'>
           <div
            
            className='md:flex md:flex-col md:items-center md:max-w-[700px] md:mx-auto  md:px-20'>
@@ -73,8 +73,8 @@ function Services() {
 
          <div
        
-         className='flex justify-center items-center'>
-          <button type='button' className=' mt-3 mb-3 border border-[#103cb5]  cursor-pointer text-[#103cb5] py-3 px-5  rounded-lg outline-none hover:shadow-2xl hover:bg-[#1018B5] hover:text-white duration-1000  self-center font-bold'>Learn More</button>
+         className='flex justify-center items-center mt-8 md:mt-3 '>
+          <button type='button' className='  border border-[#103cb5]  cursor-pointer text-[#103cb5] py-3 px-5  rounded-lg outline-none hover:shadow-2xl hover:bg-[#1018B5] hover:text-white duration-1000  self-center font-bold'>Learn More</button>
          </div>
 
         
