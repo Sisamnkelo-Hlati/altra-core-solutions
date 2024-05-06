@@ -5,12 +5,12 @@ import React from 'react'
 function Contact() {
   return (
     <div name='contact' className='w-screen h-full bg-[#f5f5ff] '>
-        <div className='md:max-w-[1190px]  mx-auto py-3 px-5 h-full '>
+        <div className='md:max-w-[1190px]  mx-auto py-8 px-5 h-full '>
             <div className='grid md:grid-cols-2 gap-3 '>
               <div 
               
               >
-                <h2 className=' text-xl text-zinc-600 mb-2 font-semibold tracking-wider'>Contact <span className='text-[#0504aa]'>Details</span></h2>
+                <h2 className=' text-2xl text-zinc-600 mb-2 font-semibold tracking-wider'>Contact <span className='text-[#0504aa]'>Details</span></h2>
                 <div>
                     <div className='flex flex-col '>
                         <span className=' text-base text-[#2b2a2a] '>AltraCore Solutions</span>
@@ -35,7 +35,7 @@ function Contact() {
              
                className='sm:mt-10'>
                 
-                 <p className='leading-7 tracking-wide mb-3 text-base  text-[#2b2a2a]'>
+                 <p className='leading-7 tracking-wide mb-3 text-sm md:text-base  text-[#2b2a2a]'>
                   Our team is readily available to assist our clients in anyways possible. For inquiries or quotations <span className='text-gray-800 '>GET IN TOUCH</span>  with us using our contact details or the contact form below.  
                  
                  </p>

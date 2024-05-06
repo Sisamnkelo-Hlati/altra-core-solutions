@@ -5,15 +5,16 @@ import Cleaning2 from "../assets/logistics.jpg"
 
 
 
+
 function Services() {
   return (
     <div name='services' className='w-full h-full  bg-[#f5f5ff] '>
-        <div className='md:max-w-[1190px] w-full mx-auto py-3  px-5 h-full '>
+        <div className='md:max-w-[1190px] w-full mx-auto py-8 px-5 h-full '>
           <div
            
            className='md:flex md:flex-col md:items-center md:max-w-[700px] md:mx-auto  md:px-20'>
-             <h2 className='mb-2 text-xl text-zinc-600 font-semibold tracking-wider'>Our <span className='text-[#3a3ab3]'>Services</span></h2>
-             <p className='leading-7 w-full  tracking-wide text-base text-zinc-500'>The services
+             <h2 className='mb-2 text-2xl text-zinc-600 font-semibold tracking-wider'>Our <span className='text-[#3a3ab3]'>Services</span></h2>
+             <p className='leading-7 w-full  tracking-wide text-sm md:text-base text-zinc-500'>The services
                   we offer include: construction, logistics and cleaning.
               </p>
 
@@ -22,7 +23,7 @@ function Services() {
          <div
         
           className='grid sm:grid-cols-2 md:grid-cols-3 sm:gap-3  mt-9'>
-         <div className=' bg-[#E6E6FE]  pb-3 mb-11 mt-5 flex items-center flex-col md:mb-5 p-2  rounded-md border border-zinc-200 '>
+         <div className=' bg-[#DDEEFF]  pb-3 mb-11 mt-5 flex items-center flex-col md:mb-5 p-2  rounded-md border border-zinc-200 '>
             <div className='w-28 h-28 relative top-[-50px] -z-0 bg-blue-100 rounded-full flex justify-center items-center border border-blue-200'>
                 <img src={Construction1} className='w-full h-full object-cover object-center  rounded-full border border-blue-700' alt="" />
             </div>
@@ -35,8 +36,9 @@ function Services() {
                  <li>Painting</li> 
                 </ul>
             </div>
+           
           </div>
-          <div className=' bg-[#E6E6FE]  pb-3 mb-11 mt-5 flex items-center flex-col md:mb-5 p-2  rounded-md border border-zinc-200'>
+          <div className=' bg-[#DDEEFF]  pb-3 mb-11 mt-5 flex items-center flex-col md:mb-5 p-2  rounded-md border border-zinc-200'>
             <div className='w-28 h-28 relative top-[-50px] -z-0 bg-blue-100 rounded-full flex justify-center items-center  border border-blue-200'>
             <img src={Cleaning1} className='w-full h-full object-cover object-center  rounded-full border border-blue-800' alt="" />
             </div>
@@ -48,8 +50,9 @@ function Services() {
                  
                 </ul>
             </div>
+          
           </div>
-          <div className=' bg-[#E6E6FE]  pb-3 mt-5 flex items-center flex-col md:mb-5 p-2  rounded-md border border-zinc-200'>
+          <div className=' bg-[#DDEEFF] pb-3 mt-5 flex items-center flex-col md:mb-5 p-2  rounded-md border border-zinc-200'>
             <div className='w-28 h-28 relative top-[-50px] -z-0 bg-blue-100 rounded-full flex justify-center items-center  border border-blue-200'>
                <img src={Cleaning2} className='w-full h-full object-cover object-center  rounded-full border border-blue-800' alt="" />
             </div>
@@ -62,10 +65,19 @@ function Services() {
                  
                 </ul>
             </div>
+           
           </div>
          
 
          </div>
+
+         <div
+       
+         className='flex justify-center items-center'>
+          <button type='button' className=' mt-3 mb-3 border border-[#103cb5]  cursor-pointer text-[#103cb5] py-3 px-5  rounded-lg outline-none hover:shadow-2xl hover:bg-[#1018B5] hover:text-white duration-1000  self-center font-bold'>Learn More</button>
+         </div>
+
+        
 
 
         </div>

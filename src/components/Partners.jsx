@@ -4,7 +4,7 @@ import Sintech from "../assets/sintech.png"
 
 function Partners() {
   return (
-    <div name='partners' className='w-full h-full bg-[#f5f5ff]'>
+    <div name='partners' className='w-full h-full bg-[#f5f5ff] hidden md:block'>
     <div className='md:max-w-[1240px] w-full mx-auto py-3 px-5 h-full '>
      
 
