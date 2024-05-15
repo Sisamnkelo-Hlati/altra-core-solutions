@@ -4,8 +4,8 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div name='contact' className='w-screen h-full bg-[#f5f5ff] '>
-        <div className='md:max-w-[1190px]  mx-auto py-8 px-5 h-full '>
+    <div name='contact' className='w-screen h-full bg-[#FEFEFE] '>
+        <div className='md:max-w-[1190px]  mx-auto my-4 py-8 px-5 h-full bg-[#FEFEFE] shadow-md '>
             <div className='grid md:grid-cols-2 gap-3 '>
               <div 
               
